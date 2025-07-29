@@ -108,8 +108,8 @@ export const siteConfig = {
     githubUrl: 'https://github.com/kortix-ai/suna',
     title: 'Suna, the AI Employee.',
     description:
-      'Suna by Kortix – is a generalist AI Agent that acts on your behalf.',
-    inputPlaceholder: 'Ask Suna to...',
+      'Nyra is a generalist AI Agent that acts on your behalf.',
+    inputPlaceholder: 'Ask Nyra to...',
   },
   cloudPricingItems: [
     {
@@ -498,15 +498,15 @@ export const siteConfig = {
     ],
   },
   featureSection: {
-    title: 'How Kortix Suna Works',
+    title: 'How Nyra Works',
     description:
-      'Discover how Kortix Suna transforms your commands into action in four easy steps',
+      'Discover how Nyra transforms your commands into action in four easy steps',
     items: [
       {
         id: 1,
         title: 'Request an Action',
         content:
-          'Speak or type your command—let Kortix Suna capture your intent. Your request instantly sets the process in motion.',
+          'Speak or type your command—let Nyra capture your intent. Your request instantly sets the process in motion.',
         image:
           'https://images.unsplash.com/photo-1720371300677-ba4838fa0678?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       },
@@ -514,7 +514,7 @@ export const siteConfig = {
         id: 2,
         title: 'AI Understanding & Planning',
         content:
-          'Suna analyzes your request, understands the context, and develops a structured plan to complete the task efficiently.',
+          'Nyra analyzes your request, understands the context, and develops a structured plan to complete the task efficiently.',
         image:
           'https://images.unsplash.com/photo-1686170287433-c95faf6d3608?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8fA%3D%3D',
       },
@@ -522,7 +522,7 @@ export const siteConfig = {
         id: 3,
         title: 'Autonomous Execution',
         content:
-          'Using its capabilities and integrations, Suna executes the task independently, handling any complexities along the way.',
+          'Using its capabilities and integrations, Nyra executes the task independently, handling any complexities along the way.',
         image:
           'https://images.unsplash.com/photo-1720378042271-60aff1e1c538?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D',
       },
@@ -530,30 +530,30 @@ export const siteConfig = {
         id: 4,
         title: 'Results & Learning',
         content:
-          'Suna delivers results and learns from each interaction, continuously improving its performance to better serve your needs.',
+          'Nyra delivers results and learns from each interaction, continuously improving its performance to better serve your needs.',
         image:
           'https://images.unsplash.com/photo-1666882990322-e7f3b8df4f75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D',
       },
     ],
   },
   bentoSection: {
-    title: 'Empower Your Workflow with Kortix Suna',
+    title: 'Empower Your Workflow with Nyra',
     description:
-      'Let Kortix Suna act on your behalf with advanced AI capabilities, seamless integrations, and autonomous task execution.',
+      'Let Nyra act on your behalf with advanced AI capabilities, seamless integrations, and autonomous task execution.',
     items: [
       {
         id: 1,
         content: <FirstBentoAnimation />,
         title: 'Autonomous Task Execution',
         description:
-          'Experience true automation with Suna. Ask your AI Agent to complete tasks, research information, and handle complex workflows with minimal supervision.',
+          'Experience true automation with Nyra. Ask your AI Agent to complete tasks, research information, and handle complex workflows with minimal supervision.',
       },
       {
         id: 2,
         content: <SecondBentoAnimation />,
         title: 'Seamless Integrations',
         description:
-          'Connect Suna to your existing tools for a unified workflow. Boost productivity through AI-powered interconnected systems.',
+          'Connect Nyra to your existing tools for a unified workflow. Boost productivity through AI-powered interconnected systems.',
       },
       {
         id: 3,
@@ -567,21 +567,21 @@ export const siteConfig = {
         ),
         title: 'Intelligent Data Analysis',
         description:
-          "Transform raw data into actionable insights in seconds. Make better decisions with Suna's real-time, adaptive intelligence.",
+          "Transform raw data into actionable insights in seconds. Make better decisions with Nyra's real-time, adaptive intelligence.",
       },
       {
         id: 4,
         content: <FourthBentoAnimation once={false} />,
         title: 'Complete Customization',
         description:
-          'Tailor Suna to your specific needs. As an open source solution, you have full control over its capabilities, integrations, and implementation.',
+          'Tailor Nyra to your specific needs. As an open source solution, you have full control over its capabilities, integrations, and implementation.',
       },
     ],
   },
   benefits: [
     {
       id: 1,
-      text: "Automate everyday tasks with Suna's powerful AI capabilities.",
+      text: "Automate everyday tasks with Nyra's powerful AI capabilities.",
       image: '/Device-6.png',
     },
     {
@@ -591,7 +591,7 @@ export const siteConfig = {
     },
     {
       id: 3,
-      text: 'Improve focus on high-value work as Suna handles the routine.',
+      text: 'Improve focus on high-value work as Nyra handles the routine.',
       image: '/Device-8.png',
     },
     {
@@ -1220,7 +1220,7 @@ export const siteConfig = {
   },
   ctaSection: {
     id: 'cta',
-    title: 'Start Using Kortix Suna Today',
+    title: 'Start Using Nyra AI Today',
     backgroundImage: '/holo.png',
     button: {
       text: 'Get Started for free',
@@ -1230,11 +1230,11 @@ export const siteConfig = {
   },
   footerLinks: [
     {
-      title: 'Kortix',
+      title: 'Nyra AI',
       links: [
-        { id: 1, title: 'About', url: 'https://kortix.ai' },
-        { id: 3, title: 'Contact', url: 'mailto:hey@kortix.ai' },
-        { id: 4, title: 'Careers', url: 'https://kortix.ai/careers' },
+        { id: 1, title: 'About', url: 'https://Nyra.ai' },
+        { id: 3, title: 'Contact', url: 'mailto:harsha@nyra.ai' },
+        { id: 4, title: 'Careers', url: 'https://Nyra.ai/careers' },
       ],
     },
     {
